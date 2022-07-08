@@ -51,17 +51,16 @@ nav a {
   color: var(--gray-color);
 }
 
-svg {
-  width: 40px;
-  height: 40px;
-}
-
-.right-nav {
+.right-nav{
   display: flex;
 }
 
+.left-nav a{
+  color: var(--main-color);
+}
+
 .margin {
-  padding-left: 3px;
+  padding-left: 30px;
 }
 
 .right-nav .dot {
@@ -70,23 +69,23 @@ svg {
   background-color: var(--main-color);
   border-radius: 50%;
   opacity: 1;
-  -webkit-transform: translate(-150px, 25px);
-  transform: translate(-150px, 25px);
+  -webkit-transform: translate(-183px, 25px);
+  transform: translate(-183px, 25px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
 .right-nav a:nth-child(1):hover ~ .dot {
-  -webkit-transform: translate(-150px, 25px);
-  transform: translate(-150px, 25px);
+  -webkit-transform: translate(-183px, 25px);
+  transform: translate(-183px, 25px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
 
 .right-nav a:nth-child(2):hover ~ .dot {
-  -webkit-transform: translate(-89px, 25px);
-  transform: translate(-89px, 25px);
+  -webkit-transform: translate(-105px, 25px);
+  transform: translate(-105px, 25px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
@@ -105,8 +104,8 @@ svg {
 }
 
 .active ~ .dot {
-  -webkit-transform: translate(-150px, 25px);
-  transform: translate(-150px, 25px);
+  -webkit-transform: translate(-183px, 25px);
+  transform: translate(-183px, 25px);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 1;
@@ -123,14 +122,13 @@ svg {
 
 .hero p {
   font-size: var(--h1-font);
-  font-weight: 300;
+  font-weight: 400;
 }
 
 
 .hero .myname {
   color: var(--main-color);
-  font-weight: 500;
-  font-style: italic;
+  font-weight: 400;
 } 
 
 /************* Selected Work **************/
@@ -220,8 +218,7 @@ footer {
 }
 
 footer .title {
-  font-size: var(--h3-font);
-  font-style: italic;
+  font-size: var(--h2-font);
   color: var(--main-color);
   font-weight: 500;
   margin-bottom: 10px;
