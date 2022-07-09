@@ -115,21 +115,32 @@ nav a {
 /************* Main **************/
 
 main {
-  max-width: 800px;
-  
-}
-.right {
-  display: grid;
-  
+  margin: 4rem 0 ;
 }
 
-img {
+.grid-1 {
+  display: flex;
+  grid-template-columns: 1fr;
+  margin-bottom: 1rem ;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem ;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem ;
+}
+
+main img {
   width: 100%;
 }
-
-
-
-
 
 
 /************* Footer **************/
