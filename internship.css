@@ -403,6 +403,23 @@ section img {
     width: 50%;
 }
 
+/************* Reflection **************/
+
+.reflection-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.reflection-container .reflection-content {
+    background-color: var(--bg--off-white);
+    padding: 2rem;
+}
+
+.big-icon {
+    font-size: var(--h2-font);
+}
+
 /************* Footer **************/
 
 footer {
